@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">tugas2</string>
+    <string name="money_conversion">MONEY CONVERSIOB</string>
+    <string-array name="pilihkelas">
+        <item>--pilih--</item>
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+        <item>I</item>
+        <item>J</item>
+    </string-array>
+
+    <string-array name="pilihagama">
+        <item>--pilih--</item>
+        <item>Katolik</item>
+    </string-array>
+</resources>
