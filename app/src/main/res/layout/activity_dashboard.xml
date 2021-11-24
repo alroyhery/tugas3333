@@ -5,23 +5,22 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:columnCount="2"
+    app:rowCount="3"
     app:orientation="horizontal"
     tools:context=".DashboardActivity">
 
     <FrameLayout
-
-        android:layout_height="100dp"
-        android:background="#5F9EA0"
-        android:layout_columnWeight="1"
-        >
+        android:background="@color/black"
+        app:layout_columnWeight="1"
+        app:layout_rowWeight="1">
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
             <ImageView
                 android:id="@+id/user"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
                 android:layout_centerInParent="true"
                 android:src="@drawable/user" />
             <TextView
@@ -35,17 +34,17 @@
                 android:text="Registration"/>
         </RelativeLayout>
     </FrameLayout>
-
     <FrameLayout
         android:layout_height="100dp"
-        android:background="#E91E63"
-        android:layout_columnWeight="1">
+        android:background="#ff34aa"
+        app:layout_columnWeight="1"
+        app:layout_rowWeight="1">
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent">
             <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
                 android:layout_centerInParent="true"
                 android:id="@+id/job"
                 android:src="@drawable/location"/>
@@ -60,17 +59,17 @@
                 android:text="search job"/>
         </RelativeLayout>
     </FrameLayout>
-
     <FrameLayout
         android:layout_height="100dp"
-        android:background="#673AB7"
-        android:layout_columnWeight="1">
+        android:background="#ff34aa"
+        app:layout_columnWeight="1"
+        app:layout_rowWeight="1">
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent">
             <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
                 android:layout_centerInParent="true"
                 android:id="@+id/notification"
                 android:src="@drawable/bell"/>
@@ -85,17 +84,17 @@
                 android:text="notification"/>
         </RelativeLayout>
     </FrameLayout>
-
     <FrameLayout
         android:layout_height="100dp"
-        android:background="#FFEB3B"
-        android:layout_columnWeight="1">
+        android:background="@color/black"
+        app:layout_columnWeight="1"
+        app:layout_rowWeight="1">
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent">
             <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
                 android:layout_centerInParent="true"
                 android:id="@+id/messages"
                 android:src="@drawable/mail"/>
@@ -110,17 +109,17 @@
                 android:text="messages"/>
         </RelativeLayout>
     </FrameLayout>
-
     <FrameLayout
         android:layout_height="100dp"
-        android:background="#FF5722"
-        android:layout_columnWeight="1">
+        android:background="@color/black"
+        app:layout_columnWeight="1"
+        app:layout_rowWeight="1">
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent">
             <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
                 android:layout_centerInParent="true"
                 android:id="@+id/ratecard"
                 android:src="@drawable/star"/>
@@ -135,19 +134,19 @@
                 android:text="Rate Card"/>
         </RelativeLayout>
     </FrameLayout>
-
     <FrameLayout
         android:layout_height="100dp"
-        android:background="#A11208"
-        android:layout_columnWeight="1">
+        android:background="#ff34aa"
+        app:layout_columnWeight="1"
+        app:layout_rowWeight="1">
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
             <ImageView
                 android:id="@+id/review"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
                 android:layout_centerInParent="true"
                 android:src="@drawable/thumbsup" />
 
@@ -163,8 +162,6 @@
 
         </RelativeLayout>
     </FrameLayout>
-
-
 
 
 </androidx.gridlayout.widget.GridLayout>
